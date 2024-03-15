@@ -312,6 +312,7 @@ h1{
     font-size: 48px;
     font-weight: 900;
     padding: 16px 0px;
+    letter-spacing: 0.025em;
 }
 
 .quality__para{
@@ -329,5 +330,57 @@ h1{
     font-weight: 600;
     margin-top: 32px;
 }
+
+/* STEPS */
+
+#steps{
+    padding: 96px 0px;
+}
+
+.steps__img--wrapper{
+    width: 50%;
+}
+
+.steps__img{
+    width: 100%;
+    margin-top: 48px;
+}
+
+.steps__section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
+.steps__wrapper{
+    display: flex;
+    margin-top: 32px;
+}
+
+.steps__number{
+    color: #cBD5e0;
+    font-size: 36px;
+    padding-right: 24px;
+    font-weight: 600;
+}
+
+.steps__title{
+    color: #243e63;
+    font-size: 20px;
+}
+
+.steps__para{
+    font-size: 14px;
+    font-weight: 500;
+    color: #718096;
+    margin-top: 12px;
+    max-width: 315px;
+    line-height: 28px;
+}
+
+
+
+
 
 
