@@ -277,13 +277,16 @@ h1{
 
 /* QUALITY */
 
+#quality{
+    padding: 96px 0px;
+}
+
 .quality__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1280px;
-    padding: 96px 0px;
 }
 
 .quality__work--wrapper{
@@ -311,7 +314,7 @@ h1{
 .quality__title{
     font-size: 48px;
     font-weight: 900;
-    padding: 16px 0px;
+    margin-top: 16px;
     letter-spacing: 0.025em;
 }
 
@@ -319,9 +322,10 @@ h1{
     color: #7C8BA1;
     font-weight: 500;
     font-size: 18px;
+    margin-top: 16px;
     width: 100%;
     max-width: 550px;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 .quality__button{
@@ -378,6 +382,208 @@ h1{
     max-width: 315px;
     line-height: 28px;
 }
+
+/* VALUES */
+
+#values{
+    padding: 96px 0px;
+}
+
+.values__para{
+    margin-top: 32px;
+}
+
+.values__promises {
+    display: flex;
+}
+
+.values__promise1 {
+    margin: 32px 32px 0px 0px;
+}
+
+.values__promise2{
+    margin-top: 32px;
+}
+
+.values__promise--header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.values__promise--title{
+    margin-left: 12px;
+    color: #243e63;
+    font-size: 20px;
+}
+
+.values__promise--para{
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.625;
+    width: 100%;
+    max-width: 275px;
+}
+
+.values__promise--img1{
+    background-color: #9ae6b4;
+    padding: 8px;
+    width: 100%;
+    max-width: 37px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.values__promise--img2{
+    background-color: #feb2b2;
+    padding: 8px;
+    width: 100%;
+    max-width: 37px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.values__img{
+    border: none;
+}
+
+.values__button{
+    margin-top: 48px;
+}
+
+/* PRICING */
+
+#pricing{
+    padding: 96px 0px;
+}
+
+.pricing__title{
+    padding: 8px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing__para{
+    margin-top: 12px;
+}
+
+.three__plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.shading1{
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(115deg, rgb(56, 178 ,172) 0%, rgb(129, 239, 217) 100%);
+}
+
+.plan{
+    width: calc(30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.plan2{
+    border: none;
+}
+
+.plan__title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a202c;
+    padding: 32px 0px 16px 0px;
+}
+
+.plan__price--value{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a202c;
+    padding-bottom: 16px;
+}
+
+.plan__price--para{
+    color: #A0AEC0;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    padding-bottom: 32px;
+    font-weight: 700;
+}
+
+.plan__price{
+    width: 100%;
+    border-left: 1px solid #f0f4fa;
+    border-right: 1px solid #f0f4fa;
+    border-bottom: 2px solid #e5e8ec;
+}
+
+.plan__for{
+    width: 100%;
+    padding: 32px;
+    border-left: 1px solid #f0f4fa;
+    border-right: 1px solid #f0f4fa;
+    border-bottom: 2px solid #e5e8ec;
+}
+
+.plan__main-feature{
+    color: #000000;
+    font-size: 20px;
+}
+
+.plan__feature{
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+    margin-top: 20px;
+}
+
+.plan__button--wrapper{
+    padding: 32px;
+    width: 100%;
+    border-left: 1px solid #f0f4fa;
+    border-right: 1px solid #f0f4fa;
+    border-bottom: 1px solid #f0f4fa;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.plan__button{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 192px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    background: linear-gradient(115deg, rgb(56, 178 ,172) 0%, rgb(129, 239, 217) 100%);
+}
+
+.plan2{
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.white{color: white;}
+
+.grey{
+    color: #edf2f7;
+}
+
+.plan__button--wrapper2{
+    padding: 32px;
+    width: 100%;
+}
+
+
 
 
 
