@@ -524,12 +524,23 @@ h1{
     border-bottom: 2px solid #e5e8ec;
 }
 
+.plan__price2{
+    width: 100%;
+    border-bottom: 2px solid #6081c7;
+}
+
 .plan__for{
     width: 100%;
     padding: 32px;
     border-left: 1px solid #f0f4fa;
     border-right: 1px solid #f0f4fa;
     border-bottom: 2px solid #e5e8ec;
+}
+
+.plan__for2{
+    width: 100%;
+    padding: 32px;
+    border-bottom: 2px solid #6081c7;
 }
 
 .plan__main-feature{
@@ -567,9 +578,14 @@ h1{
     background: linear-gradient(115deg, rgb(56, 178 ,172) 0%, rgb(129, 239, 217) 100%);
 }
 
-.plan2{
+.plan__container{
+    width: 100%;
     border-radius: 8px;
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.shading2{
+    height: 8px;
 }
 
 .white{color: white;}
@@ -583,8 +599,29 @@ h1{
     width: 100%;
 }
 
+.plan__button2{
+    color: #6415ff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 192px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+}
 
+.shading3{
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
 
+.plan__button3{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
+}
 
 
 
