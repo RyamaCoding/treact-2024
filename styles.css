@@ -547,6 +547,7 @@ h1{
 .plan__main-feature{
     color: #000000;
     font-size: 20px;
+    letter-spacing: 0.025em;
 }
 
 .plan__feature{
@@ -623,6 +624,170 @@ h1{
 .plan__button3{
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%)
 }
+
+/* CLIENTS */ 
+
+#clients{
+    padding: 96px 0px;
+}
+
+.clients__wrapper{
+    display: flex;
+}
+
+.clients__img--wrapper{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.clients__img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.client__wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ratings__wrapper{
+    margin-top: 36px;
+}
+
+.star-colour{
+    font-size: 18px;
+    color: rgb(255, 166, 0);
+    margin-right: 0.025em;
+}
+
+.user__sub-title{
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #243e63;
+    margin: 16px 0px;
+}
+
+.user__para{
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 1.625em;
+}
+
+.director__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.director__left{
+    display: flex;
+    align-items: center;
+}
+
+.director__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 9999px;
+}
+
+.director__description--wrapper{
+    padding-left: 24px;
+}
+
+.director__name{
+    font-size: 20px;
+    color: #243e63;
+    margin-bottom: 4px;
+}
+
+.director__role{
+    font-size: 16px;
+    font-weight: 500;
+    color: #7C8BA1;
+}
+
+.director__arrows--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    background-color: #e5e8ec;
+    border-radius: 9999px;
+    padding: 16px;
+}
+
+.arrows__border{
+    border: 1px solid #e5e8ec;
+    height: 30px;
+    margin: 0 16px;
+}
+
+/* BANNER */ 
+
+#banner{
+    padding: 96px 0px;
+}
+
+.banner__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6415ff;
+    border-radius: 8px;
+    padding: 96px 0px;
+}
+
+.banner__text--wrapper{
+    width: 45%;
+}
+
+.banner__text{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 96px;
+    width: 100%;
+}
+
+.banner__buttons--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.orange__button{
+    color: white;
+    background-color: #f56565;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    border-radius: 9999px;
+    padding: 20px 40px;
+    margin-right: 32px;
+}
+
+.purple__button{
+    color: white;
+    background-color: #6415ff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    border-radius: 9999px;
+    padding: 20px 40px;
+}
+
 
 
 
